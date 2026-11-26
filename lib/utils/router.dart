@@ -9,7 +9,6 @@ import '../screens/tracking/tracking_screen.dart';
 import '../screens/history/history_screen.dart';
 import '../screens/profile/profile_screen.dart';
 import '../screens/admin/admin_shell.dart';
-import '../screens/admin/admin_shell.dart';
 
 final routerProvider = Provider<GoRouter>((ref) {
   final supabase = Supabase.instance.client;
