@@ -1,0 +1,7 @@
+-keep class io.flutter.** { *; }
+-keep class com.yetkazma.** { *; }
+-keep class io.supabase.** { *; }
+-dontwarn io.flutter.**
+-dontwarn okhttp3.**
+-keep class okhttp3.** { *; }
+-keep class okio.** { *; }
